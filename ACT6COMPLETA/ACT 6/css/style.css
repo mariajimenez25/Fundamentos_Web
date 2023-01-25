@@ -1,0 +1,50 @@
+*{
+    margin: 0px auto;
+    padding: 0%;
+}
+header{
+    border: 4px solid black;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 40%;
+    height: 140px;
+    padding-top:20px;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+}
+.S1{
+    position: relative;
+    top:10px;
+}
+.S2{
+    position:relative;
+    top:15px;
+    font-size: 25px;
+}
+.S3{
+    position:relative;
+    top:10px;
+    height: 20px;
+}
+.Like{
+    height: 40px;
+    width: 70px;
+    margin: 0px auto;
+    font-size: 20px;
+    border: 4px solid black;
+    background-color: rgb(230, 171, 64);
+}
+.Parrafo{
+    position: relative;
+    margin-left: 450px;
+    bottom: 70px;
+    font-size: 25px;
+}
+div h3{
+    position: relative;
+    top: 12px;
+    left: 50px;
+    font-size:30px;
+}

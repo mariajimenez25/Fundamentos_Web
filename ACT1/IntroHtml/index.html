@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+    <form action="/action" method="post">
+        <div>
+            <label>
+            First Name:*
+            </label>
+            <input type="text" name="input_texto"/>
+            <label>
+        </div>
+        <div>
+            <label>
+            Last Name:*
+            </label>
+            <input type="text" name="input_texto"/>
+        </div>
+        <div>
+            <label>
+             Email Address:*
+            </label>
+            <input type="email" name="input_email"/>
+        </div>
+        <div>
+            <label>
+             Password: * 
+            </label>
+            <input type="password" name="input_contra"/>
+        </div>
+        <div>
+            <label>
+             Confirm Password: * 
+            </label>
+            <input type="password" name="input_contra"/>
+        </div>
+        <div>
+            <label>
+             Birthday: 
+            </label>
+            <input type="date" name="input_date"/>
+        </div>
+        Gender identify:
+        <div>
+            <input type="radio" name="input_gener" value="Male" id="Male"/>
+            <label for="Male"> Male </label>
+            <input type="radio" name="input_gener" value="Female" id="Female"/>
+            <label for="Female"> Female </label>
+            <input type="radio" name="input_gener" value="Non binary" id="Non binary"/>
+            <label for="Non binary"> Non binary </label>
+            <input type="radio" name="input_gener" value="I prefer not to answer" id="I prefer not to answer"/>
+            <label for="I prefer not to answer"> I prefer not to answer </label>
+        </div>
+        A short description about myself: 
+        <div>
+            <input type="text" name="input_text"/>
+        </div>
+        <div>
+            <label>
+             Favorite Language:  
+            </label>
+            <select name="Language">
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>Arduino</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="Periodic email" id=Periodic_name/>
+            <label for="Periodic_name">Yes, I would like to receive periodic email updates</label>
+        </div>
+        <div>
+            <input type="submit" value="Create Account">
+        </div>
+        <p>
+            * Indicates a required field
+        </p>
+    </form>
+</body>
+</html>

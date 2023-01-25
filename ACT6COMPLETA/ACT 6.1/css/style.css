@@ -1,0 +1,273 @@
+*{
+    margin:0px auto;
+    padding: 0%;
+}
+
+.MainP{
+    display: flex;
+    direction: row;
+    position: relative;
+    right: 25px;
+}
+.header1{
+    background-color: black;
+    color: white;
+    height: 70px;
+    margin: 0px auto;
+    width: 60%;
+}
+.Network{
+    position: relative;
+    top:15px;
+    left:20px;
+}
+.header2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 70px;
+    margin: 0px auto;
+    width: 60%;  
+
+}
+.YFeed{
+    position: relative;
+    left: 320px;
+    top: 15px;
+}
+.Contizq{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 320px;
+    width: 200px;
+    position: absolute;
+    left: 290px;
+}
+.Contder{
+    display: flex;
+    direction: column;
+    position: relative;
+    left: 225px;
+}
+.IUsuario{
+    height: 100px;
+    position: relative;
+    left: 50px;
+    top:30px;
+}
+.Add {
+    position: relative;
+    top:70px ;
+    left: 20px;
+    font-size: 25px;
+}
+.JamesDoe {
+    position: relative;
+    top:100px ;
+    left: 25px;
+    font-size: 32px;
+}
+.S1{
+    position: relative;
+    top:10px;
+    left: 20px;
+    width: 100px;
+}
+.S2{
+    position:relative;
+    top:15px;
+    left:210px;
+    font-size: 25px;
+}
+.S3{
+    position:relative;
+    top:10px;
+    left: 250px;
+    height: 20px;
+}
+.S4{
+    position:relative;
+    left: 150px;
+    height: 20px;
+}
+.Like{
+    height: 40px;
+    width: 70px;
+    margin: 0px auto;
+    font-size: 20px;
+    border: 4px solid black;
+    background-color: rgb(230, 171, 64);
+}
+.Parrafo{
+    position: relative;
+    margin-left: 450px;
+    right: 680px;
+    top: 80px;
+    font-size: 25px;
+    width: 500px;
+}
+div h3{
+    position: relative;
+    top: 12px;
+    left: 50px;
+    font-size:30px;
+}
+.SubC1{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 550px;
+    height: 180px;
+    padding-top:20px;
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    position: relative;
+    left:320px;
+    bottom: 40px;
+}
+.SomeUser{
+    width: 100px;
+}
+.counter-label{
+    position: relative;
+    left: 530px;
+}
+.SubC2{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 550px;
+    height: 180px;
+    padding-top:20px;
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    position: relative;
+    top:180px;
+    right: 240px;
+    
+}
+.S1b{
+    position: relative;
+    top:10px;
+    left: 20px;
+    width: 100px;
+}
+.S2b{
+    position:relative;
+    top:15px;
+    left:210px;
+    font-size: 25px;
+}
+.S3b{
+    position:relative;
+    top:10px;
+    left: 250px;
+    height: 20px;
+}
+.S4b{
+    position:relative;
+    left: 150px;
+    height: 20px;
+}
+.Likeb{
+    height: 40px;
+    width: 70px;
+    margin: 0px auto;
+    font-size: 20px;
+    border: 4px solid black;
+    background-color: rgb(230, 171, 64);
+}
+.Parrafob{
+    position: relative;
+    margin-left: 450px;
+    right: 680px;
+    top: 80px;
+    font-size: 25px;
+    width: 500px;
+}
+div h3{
+    position: relative;
+    top: 12px;
+    left: 50px;
+    font-size:30px;
+}
+
+.SomeUserb{
+    width: 140px;
+}
+.counter-labelb{
+    position: relative;
+    left: 530px;
+}
+.SubC3{
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 40px;
+    width: 550px;
+    height: 180px;
+    padding-top:20px;
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    position: relative;
+    top:400px;
+    right: 800px;
+    
+}
+.S1c{
+    position: relative;
+    top:10px;
+    left: 20px;
+    width: 100px;
+}
+.S2c{
+    position:relative;
+    top:15px;
+    left:210px;
+    font-size: 25px;
+}
+.S3c{
+    position:relative;
+    top:10px;
+    left: 250px;
+    height: 20px;
+}
+.S4c{
+    position:relative;
+    left: 150px;
+    height: 20px;
+}
+.Likec{
+    height: 40px;
+    width: 70px;
+    margin: 0px auto;
+    font-size: 20px;
+    border: 4px solid black;
+    background-color: rgb(230, 171, 64);
+}
+.Parrafoc{
+    position: relative;
+    margin-left: 450px;
+    right: 680px;
+    top: 80px;
+    font-size: 25px;
+    width: 500px;
+}
+div h3{
+    position: relative;
+    top: 12px;
+    left: 50px;
+    font-size:30px;
+}
+
+.SomeUserc{
+    width: 100px;
+}
+.counter-labelc{
+    position: relative;
+    left: 530px;
+}

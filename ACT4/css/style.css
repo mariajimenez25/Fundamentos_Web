@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+header {
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+body{
+    height: 1000px;
+}
+.Padre1 {
+    width:100%;
+    display:flex;
+    direction:row;
+    align-items: center;
+    height: 20px;
+    justify-content: space-between;
+    padding-top: 40px;
+    position:relative;
+    right:240px;
+}
+.Ha1 {
+    display:flex;
+    direction:row;
+    justify-content: space-between;
+    margin: 0px auto;
+    position: relative;
+    left: 70px;
+    display: flex;
+    direction:row;
+}
+div button {
+    background-color:rgb(64, 165, 165) ;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
+.Perfil {
+    color:white;
+    font-size: 40px;
+    margin: 25px;
+    padding-left: 50px;
+    font-weight: 200;
+    position: relative;
+    left: 20px;
+    top:5px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+div a {
+    color:rgb(207, 198, 198);
+    display:flex;
+    direction:row;
+    justify-content: space-between;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+div ul {
+    display:flex;
+    direction:row;
+    margin-top: 40px;
+    font-size: 20px;
+    justify-content: space-between;
+    list-style: none;
+}
+.JaneDo {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 150px;
+    background-color: white;
+    height: 70px;
+    position:relative;
+    right:140px;
+
+}
+.cardheader{
+    background-color: rgb(9, 158, 163);
+    width: 470px;
+    position: relative;
+    bottom: 15px;
+    height: 100px;
+}
+.Contizq {
+    display: flex;
+    direction: column;
+    margin:0px auto;
+    margin-top: 40px;
+    margin-left:260px;
+    width: 470px ;
+    border: 2px solid rgb(255, 255, 255);
+    height: 600px;
+}
+.avatar {
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: relative;
+    top:50px;
+    left:20px;
+}
+.Tarjeta {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px auto;
+    margin-top: 34px;
+    border: 2px solid rgb(195, 195, 218);
+    position: relative;
+    bottom: 35px; 
+    height: 370px;
+}
+.icon {
+    height: 20px;
+    margin-right:1px;
+}
+div h1,h3,p{
+    margin-bottom:10px;
+    position:relative;
+    bottom:15px;
+}
+div h1{
+    color: black;
+    margin-top: 40px;
+    border-width: 60px;
+    position:relative;
+    right:75px;
+    bottom: 10px;
+}
+.cardbody {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+p a{
+    color: blue;
+    text-decoration: underline;
+    font-weight: 30px;
+    justify-content: left;
+    position: relative;
+    right: 10px;
+}
+.education {
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px auto;
+    margin-top: 34px;
+    border: 2px solid rgb(0, 0, 255);
+    position: relative;
+    bottom: 35px; 
+    height: 370px;
+}
+.cuadro {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 150px;
+    height: 70px;
+    position:relative;
+    right:140px;
+
+}
+.EducationH{
+    background-color: rgb(38, 51, 51);
+    width: 474px;
+    position: relative;
+    top:350px;
+    height: 60px;
+    right: 472px;
+    
+}
+.EducationText {
+    color: rgb(255, 255, 255);
+    position:relative;
+    left:35px;
+    top: 15px;
+    margin: 0px auto;
+    font-size: 20px;
+}
+.EducationB{
+    background-color: rgb(255, 255, 255);
+    width: 470px;
+    position: relative;
+    top:350px;
+    height: 168px;
+    right: 472px;
+    border: 2px solid rgb(195, 195, 218);
+    
+}
+.TextEB{
+    position:relative;
+    top:20px;
+    position: relative;
+    left:30px;
+}
+main {
+    display: flex;
+    direction: row;
+}
+
+.Contder {
+    display: flex;
+    direction: column;
+    margin:0px auto;
+    border: 2px solid rgb(19, 18, 18);
+    height: 400px;
+}
+.Conexion {
+    width: 330px;
+    height: 240px;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin:0px auto;
+    margin-top: 34px;
+    border: 2px solid rgb(195, 195, 218);
+    position: relative;
+    right: 240px;
+    top:7px;
+}
+.ConnectionR {
+    display:flex;
+    align-items: center;
+    margin: 0px auto;
+    width: 150px;
+    background-color: rgb(15, 255, 7);
+    height: 70px;
+    position:relative;
+    right:140px;
+    top: 100px;
+    display: flex;
+    direction: row;
+}
+.Conheader{
+    display: flex;
+    direction: row;
+    justify-content:left ;
+    background-color: rgb(38, 51, 51);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 170px;
+}
+.contacto {
+    height: 50px;
+    position: relative;
+    bottom:70px;
+    right:40px;
+}
+.acept {
+    height: 40px;
+    position: relative;
+    bottom:80px ;  
+    right: 30px;
+}
+
+.ConnectionRequest{
+    position: relative;
+    top:500px;
+}
+.C {
+    color:white;
+    font-size: 22px;
+    position: relative;
+    top:5px;
+    margin: 0px auto;
+    justify-content: center;
+}
+.Conbody {
+    width: 100%;
+    position: relative;
+    top:100px;
+    left: 100px;
+    display: flex;
+    direction: column;
+}
+.Ndos {
+    height:40px;
+    border: 1px solid black;
+    border-radius:50%;
+    position: relative;
+    top:15px;
+}
+.NOMBRE{
+    font-size: 25px;
+    position: relative;
+    bottom: 120px;
+    right:25px;
+    width: 120px;
+}
+.PrimerC{
+    display:flex;
+}
+.SegundoC{
+    display:flex;
+}
+.contacto2 {
+    height: 50px;
+    position: relative;
+    right: 290px;
+}
+.acept2 {
+    height: 40px;
+    position: relative;
+    right: 280px;
+    bottom: 20px;
+
+}
+.NOMBRE2{
+    font-size: 25px;
+    position: relative;
+    right: 270px;
+    bottom: 50px;
+    width: 120px;
+}
+
+/* -------your conection */
+.Yourconexion
+{   width: 330px;
+    height: 325px;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin:0px auto;
+    margin-top: 34px;
+    border: 2px solid rgb(195, 195, 218);
+    position: relative;
+    right: 240px;
+    top:400x;
+}
+.Yconnection {
+    display:flex;
+    align-items: center;
+    margin: 0px auto;
+    width: 150px;
+    height: 70px;
+    position:relative;
+    right:140px;
+    top: 100px;
+    display: flex;
+    direction: row;
+}
+.Yheader{
+    display: flex;
+    direction: row;
+    justify-content:left ;
+    background-color: rgb(38, 51, 51);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 255px;
+}
+.Ybody {
+    width: 100%;
+    position: relative;
+    top:100px;
+    left: 100px;
+    display: flex;
+    direction: column;
+}
+.Y {
+    color:white;
+    font-size: 22px;
+    position: relative;
+    margin: 0px auto;
+    justify-content: center;
+}
+.Nquinientos {
+    height:50px;
+    border: 1px solid black;
+    border-radius:50%;
+    position: relative;
+    top:20px;
+}
+.PrimerY{
+    display:flex;
+    position: relative;
+    bottom: 65px;
+}
+.SegundoY{
+    display:flex;
+    position: relative;
+    bottom: 75px;
+    left: 80px;
+}
+.TercerY{
+    display:flex;
+    position: relative;
+    bottom: 15px;
+    right:90px;
+}
+.CuartoY{
+    display:flex;
+    position: relative;
+    top:45px;
+    right:260px;
+}
+.NOMBREY{
+    font-size: 25px;
+    position: relative;
+    bottom: 120px;
+    right:25px;
+    width: 120px;
+}
+.NOMBRE2Y{
+    font-size: 25px;
+    position: relative;
+    right: 270px;
+    bottom: 50px;
+    width: 120px;
+}
+.NOMBRE3Y{
+    font-size: 25px;
+    position: relative;
+    right: 270px;
+    bottom: 50px;
+    width: 120px;
+}
+.NOMBRE4Y{
+    font-size: 25px;
+    position: relative;
+    right: 270px;
+    bottom: 50px;
+    width: 120px;
+}
+.LINK{
+    justify-content: left;
+}
+.CLINK{
+    background-color:white ;
+    border: 2px solid rgb(195, 195, 218);
+    position: relative;
+    right: 240px;
+}
+.CLINK a{
+    color: blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
